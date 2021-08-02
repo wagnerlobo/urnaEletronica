@@ -60,12 +60,16 @@ display: flex;
     background-color: #fff;
     color: #000;
     font-size: 15px;
+    width: 75px;
+    height: 40px;
 }
 .botao-corrige {
 
     background-color: #f09046;
     color: #000;
     font-size: 15px;
+    width: 75px;
+    height: 40px;
 }
 .botao-confirma {
 

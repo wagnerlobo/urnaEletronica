@@ -22,10 +22,10 @@ function comecarEtapa() {
       
    }
 
-   seuVotoPara.style.display = 'nome';
+   seuVotoPara.style.display = 'none';
    cargo.innerHTML = etapa.titulo;
    descricao.innerHTML = '';
-   aviso.style.display = 'nome';
+   aviso.style.display = 'none';
    lateral.innerHTML = '';
    numeros.innerHTML = numeroHtml;
 }
@@ -35,11 +35,14 @@ function atualizaInterface() {
 
 function clicou(n) {
 
-    let elNumero = document.querySelector('.numro.pisca');
+    let elNumero = document.querySelector('.numero.pisca');
 
     if(elNumero !== null) {
         elNumero.innerHTML = n;
         numero = `$(numero)$(n)`;
+
+        elNumero.classList.remove('pisca');
+        elNumero.nextElementSibling.classList.add('pisca');
     }
     
 }

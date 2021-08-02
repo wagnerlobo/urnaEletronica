@@ -43,12 +43,12 @@ let etapas = [
                 numero: 62,
                 nome: 'boquinha',
                 partido: 'SISSI',
-                vice: 'herlon'
+                vice: 'herlon',
                 fotos: [
                     {url:'family.jpg', legenda: 'Prefeito'},
                     {url:'sissi.jpg', legenda: 'Vice-Prefeito', small: true}
                 ]
-                
+
                 },
 
         ]
