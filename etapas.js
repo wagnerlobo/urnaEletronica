@@ -8,7 +8,7 @@ let etapas = [
                 nome: 'Sissi de mainha',
                 partido: 'SISSI',
                 fotos: [
-                    {url:'sissi.jpg', legenda: 'Vereador'}
+                    {url:'sissi.jpg', legenda: 'Vereador', small: false}
                 ]
             },
             { 
@@ -28,8 +28,9 @@ let etapas = [
         candidatos: [
             {
                 numero: 72,
-                nome: 'Sissi',
+                nome: 'calequinha',
                 partido: 'SISSI',
+                vice: 'wagninho'
 
                 fotos: [
                     {url:'sissi.jpg', legenda: 'Prefeito'},
@@ -42,11 +43,12 @@ let etapas = [
                 numero: 62,
                 nome: 'boquinha',
                 partido: 'SISSI',
-
+                vice: 'herlon'
                 fotos: [
                     {url:'family.jpg', legenda: 'Prefeito'},
                     {url:'sissi.jpg', legenda: 'Vice-Prefeito', small: true}
                 ]
+                
                 },
 
         ]
